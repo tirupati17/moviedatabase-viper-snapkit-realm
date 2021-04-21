@@ -1,0 +1,40 @@
+# Uncomment the next line to define a global platform for your project
+platform :ios, '10.0'
+
+def user_interface
+end
+
+def utilities
+  pod 'Kingfisher'
+  pod 'RealmSwift'
+  pod 'Alamofire'
+  pod 'SnapKit'
+  pod 'SwiftLint'
+end
+
+def vendors
+end
+
+
+target 'MovieDatabase' do
+  # Comment this line if you're not using Swift and don't want to use dynamic frameworks
+  use_frameworks!
+  
+  # Pods for Zenius
+  user_interface
+  utilities
+  vendors
+
+end
+
+target 'MovieDatabaseTests' do
+    inherit! :search_paths
+    # Pods for testing
+end
+
+target 'MovieDatabaseUITests' do
+    inherit! :search_paths
+    # Pods for testing
+end
+
+
