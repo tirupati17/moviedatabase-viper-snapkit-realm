@@ -4,7 +4,7 @@
 [![Build Status](https://app.bitrise.io/app/5f66331c3fb3b599/status.svg?token=YjBRFLcOEdbCmpBVn5Co8w)](https://app.bitrise.io/app/53db2c2b28cad77b)
 [![Codacy Badge](https://app.codacy.com/project/badge/Grade/3d5687797fd74751bb95ca10bc96fefc)](https://www.codacy.com/manual/Celerstudio/moviedatabase-viper-snapkit-realm?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=tirupati17/moviedatabase-viper-snapkit-realm&amp;utm_campaign=Badge_Grade)
 
-![moviedatabase](https://raw.githubusercontent.com/tirupati17/moviedatabase-viper-snapkit-realm/master/moviedatabase/Resources/screenshot1.PNG)
+![moviedatabase](https://raw.githubusercontent.com/tirupati17/moviedatabase-viper-snapkit-realm/master/MovieDatabase/Resources/screenshot1.PNG)
 ![moviedatabase](https://raw.githubusercontent.com/tirupati17/moviedatabase-viper-snapkit-realm/master/moviedatabase/Resources/screenshot2.PNG)
 
 ### Description
