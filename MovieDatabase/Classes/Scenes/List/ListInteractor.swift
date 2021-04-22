@@ -45,7 +45,7 @@ extension ListInteractor: ListInteractorProtocol {
             let movieDatabases = realm.objects(Result.self).filter("id = %d", idValue)
             
             if let movieDatabase = movieDatabases.first {
-                try! realm.write {
+                try realm.write {
                     movieDatabase.favorite = isFavorite
                 }
             }

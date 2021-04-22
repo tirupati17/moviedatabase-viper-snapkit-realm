@@ -9,7 +9,7 @@
 import UIKit
 import Kingfisher
 
-protocol ListTableViewCellDelegate {
+protocol ListTableViewCellDelegate: class {
     func favoriteAction(id: String, isFavorite: Bool)
 }
 
@@ -51,7 +51,7 @@ class ListTableViewCell: BaseTableViewCell {
         return button
     }()
     
-    var delegate: ListTableViewCellDelegate?
+    weak var delegate: ListTableViewCellDelegate?
     // MARK: - Implementation -
 
     override init(style: UITableViewCell.CellStyle, reuseIdentifier: String?) {

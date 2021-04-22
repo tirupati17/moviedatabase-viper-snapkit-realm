@@ -14,7 +14,7 @@ import UIKit
 
 class AppDelegateTests: XCTestCase {
     
-    var appDelegate: AppDelegate = AppDelegate()
+    weak var appDelegate: AppDelegate = AppDelegate()
     
     override func setUp() {
         super.setUp()

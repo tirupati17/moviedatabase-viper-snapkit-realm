@@ -52,47 +52,5 @@ class ListViewControllerTests: XCTestCase {
          _ = listViewController?.view
          
          XCTAssertNotNil(listViewController?.noResultView, "a noResultView instance should be present")
-    }
-    
-    // MARK: viewWillAppear tests
-    
-    func testThatAfterViewWillAppear() {
-        _ = listViewController?.view
-        
-        // TODO
-    }
-    
-    func testThatAfterViewDidDisappear() {
-        _ = listViewController?.view
-        
-        // TODO
-    }
-    
-    func testThatAfterKeyboardWillShow() {
-        _ = listViewController?.view
-        
-        // TODO
-    }
-    
-    func testThatAfterKeyboardWillHide() {
-        _ = listViewController?.view
-        
-        // TODO
-    }
-    
-    func testThatAfterTouchesBegan() {
-        _ = listViewController?.view
-        
-        // TODO
-    }
-    
-    func testThatUpdateTextFieldsUpdatesTextFields() {
-        // TODO: Implement
-    }
-    
-    func testThatGoToNextModuleTriggersWireframe() {
-        _ = listViewController?.view
-        
-        // TODO: Implement
-    }
+    }    
 }
