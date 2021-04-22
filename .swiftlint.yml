@@ -1,8 +1,8 @@
 included:
-  - MAList
+  - MovieDatabase
 excluded:
-  - MAListTests
-  - MAListUITests
+  - MovieDatabaseTests
+  - MovieDatabaseUITests
 line_length:
   warning: 10
   # error: 600
